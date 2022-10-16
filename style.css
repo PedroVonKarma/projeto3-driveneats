@@ -106,7 +106,7 @@ margin-top: 25px;
 	height: 230px;
 	display: flex;
 	overflow-x: scroll;
-
+	scrollbar-width: none;
 }
 .item{
 	display: flex;
@@ -228,6 +228,7 @@ align-items: center;
 	height: 16px;
 width: 16px;
 margin-right: 14px;
+color: #32B72F;
 }
 .tickd{
 	display: flex;
