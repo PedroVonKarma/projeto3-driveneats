@@ -234,3 +234,9 @@ color: #32B72F;
 	display: flex;
 	justify-content: space-between;
 }
+a{
+	text-decoration: none;
+}
+.item:hover, .bottomButtonA{
+	cursor: pointer;
+}

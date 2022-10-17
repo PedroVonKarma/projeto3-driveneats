@@ -17,7 +17,7 @@
     <div class="conteudoTotal">
         <p class="c">Primeiro, seu prato</p>
         <div class="pratos foods">
-            <div class="item" onclick="selectFood(this); ableTick('.aa')"><img src="imagens\frango.jpg" class="itemimg"/><p class="d">Frango padrão</p><p class="e">Frango com batata doce</p><div class="tickd"><p class="f">R$ 12,00</p><ion-icon class="aa tick hidden" name="checkmark-circle"></ion-icon></div></div>
+            <div class="item" onclick="selectFood(this); ableTick('.aa');"><img src="imagens\frango.jpg" class="itemimg"/><p class="d">Frango padrão</p><p class="e">Frango com batata doce</p><div class="tickd"><p class="f">R$ 12,00</p><ion-icon class="aa tick hidden" name="checkmark-circle"></ion-icon></div></div>
             <div class="item" onclick="selectFood(this); ableTick('.ab')"><img src="imagens\escondidinho.jpg" class="itemimg"/><p class="d">Monstro escondido</p><p class="e">Escondidinho de <br> frango e batata doce</p><div class="tickd"><p class="f">R$ 15,00</p><ion-icon class="ab tick hidden" name="checkmark-circle"></ion-icon></div></div>
             <div class="item" onclick="selectFood(this); ableTick('.ac')"><img src="imagens\rata.jpg" class="itemimg"/><p class="d">Rato de academia</p><p class="e">Ratatouille de frango com batata doce</p><div class="tickd"><p class="f">R$ 20,00</p><ion-icon class="ac tick hidden" name="checkmark-circle"></ion-icon></div></div>
         </div>
@@ -36,7 +36,7 @@
     </div>
     <div class="bottomBar"><div class="bottomButton"><p class="g">Selecione os 3 itens<br>
         para fechar o pedido</p></div></div>
-        <div class="bottomBarA hidden"><div class="bottomButtonA"><p class="h">Fechar pedido</p></div></div>
+        <div class="bottomBarA hidden" onclick="end()"><a target='_blank' id="zap" ><div class="bottomButtonA"><p class="h">Fechar pedido</p></div></a></div>
 
 
     <script src="script.js"></script>
